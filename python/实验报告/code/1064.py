@@ -1,0 +1,5 @@
+input()
+l = list(set([sum(list(map(int, str(i))))
+              for i in list(map(int, input().split()))]))
+print(len(l))
+print(*sorted(l))
